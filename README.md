@@ -9,14 +9,6 @@ The system identifies users with similar tastes by applying **Set Theory**. If t
 
 ---
 
-## 👥 The Team (Group SE-2526)
-* **Dinara (Lead / Architect)** — Designed the class hierarchy and managed the Git repository workflow.
-* **Marzhan (Data Specialist)** — Handled JSON data persistence and file I/O operations.
-* **Balzhan (Logic Developer)** — Developed the similarity algorithms and recommendation generation logic.
-* **Aigerim (QA & Integration)** — Managed final system assembly, error handling, and unit testing.
-
----
-
 ## 🛠 Technical Implementation
 This project follows all mandatory requirements from the course syllabus:
 * **OOP (3+ Classes):** Implemented `User`, `Item`, and `Engine` classes using encapsulation.
@@ -32,3 +24,11 @@ This project follows all mandatory requirements from the course syllabus:
 2. Open the project in PyCharm.
 3. Ensure `users.json` and `items.json` are in the root directory.
 4. Run the main script: `python main.py`
+
+   ---
+
+## 👥 The Team (Group SE-2526)
+* **Dinara (Lead / Architect)** — Designed the class hierarchy and managed the Git repository workflow.
+* **Marzhan (Data Specialist)** — Handled JSON data persistence and file I/O operations.
+* **Balzhan (Logic Developer)** — Developed the similarity algorithms and recommendation generation logic.
+* **Aigerim (QA & Integration)** — Managed final system assembly, error handling, and unit testing.
