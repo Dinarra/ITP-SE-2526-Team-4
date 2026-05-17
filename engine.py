@@ -5,3 +5,12 @@ def get_similar_users(target_user, all_users):
             if target_user.liked_items.intersection(user.liked_items):
                 similar.append(user)
     return similar
+
+def generate_recommendations(target_user, similar_users):
+    recommended = set()
+    for other in similar_users:
+        new_items = other.liked_items - target_user.liked_items
+        for item in new_items:
+            if item not in recommended:
+                recommended.add(item)
+                yield item
