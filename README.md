@@ -30,14 +30,10 @@ This project strictly follows all advanced requirements from the course evaluati
 
 Ensure Python interpreter is configured properly (Python 3.10+ recommended).
 
-To execute automated tests: Run the testing suite:
+To execute automated tests: Run the testing suite: python test_project.py
 
-Bash
-python test_project.py
-To run the main application: Execute the interactive simulation engine:
+To run the main application: Execute the interactive simulation engine:python main.py
 
-Bash
-python main.py
 👥 The Team (Group SE-2526)
 Dinara (Lead / Architect) — Designed the core object-oriented class hierarchy, managed repository workflows, and enforced structural encapsulation standards.
 
