@@ -1,5 +1,6 @@
 [
-  {"user_id": 1, "liked_items": ["movie1", "movie2", "movie5"]},
-  {"user_id": 2, "liked_items": ["movie2", "movie3"]},
-  {"user_id": 3, "liked_items": ["movie1", "movie4"]}
+  {"user_id": 1, "username": "Dinara", "watched": ["Inception", "Interstellar", "Avatar"]},
+  {"user_id": 2, "username": "Marzhan", "watched": ["Interstellar", "The Dark Knight"]},
+  {"user_id": 3, "username": "Balzhan", "watched": ["Inception", "Avatar", "The Matrix"]},
+  {"user_id": 4, "username": "Aigerim", "watched": ["Interstellar", "Avatar", "The Matrix"]}
 ]

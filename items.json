@@ -1,7 +1,7 @@
 [
-  {"id": "movie1", "genre": "action"},
-  {"id": "movie2", "genre": "comedy"},
-  {"id": "movie3", "genre": "drama"},
-  {"id": "movie4", "genre": "action"},
-  {"id": "movie5", "genre": "horror"}
+  {"id": "content1", "title": "Inception", "genre": "Sci-Fi", "duration": 148},
+  {"id": "content2", "title": "Interstellar", "genre": "Sci-Fi", "duration": 169},
+  {"id": "content3", "title": "Avatar", "genre": "Sci-Fi", "duration": 162},
+  {"id": "content4", "title": "The Dark Knight", "genre": "Action", "duration": 152},
+  {"id": "content5", "title": "The Matrix", "genre": "Sci-Fi", "duration": 136}
 ]
