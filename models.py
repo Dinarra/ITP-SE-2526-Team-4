@@ -1,16 +1,16 @@
-class Item:
-    def init(self, item_id, genre):
-        self.id = item_id
+class Content:
+    def __init__(self, content_id, title, genre):
+        self.id = content_id
+        self.title = title
         self.genre = genre
 
-class User:
-    def init(self, user_id, liked_items):
-        self.user_id = user_id
-        self.liked_items = set(liked_items)
+    def get_details(self):
+        return f"{self.title} [{self.genre}]"
 
-    def str(self):
-        return f"User {self.user_id} | Items: {len(self.liked_items)}"
+# Base Class for Inheritance
+class Viewer:
+    def __init__(self, username):
+        self.username = username
 
-    class RecommendationEngine:
-        def init(self, users):
-            self.users = users
+    def get_role_profile(self):
+        return f"Guest Viewer: {self.username}"
