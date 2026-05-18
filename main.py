@@ -34,7 +34,7 @@ def main():
 
         if recs:
             for item in recs:
-                print(f"🔥 Recommended Discovery: {item}")
+                print(f" Recommended Discovery: {item}")
 
             save_choice = input(
                 "\nWould you like to auto-save the first recommendation to database history? (yes/no): ")
