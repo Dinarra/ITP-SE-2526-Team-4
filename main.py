@@ -49,6 +49,5 @@ def main():
     except Exception as e:
         print(f"Runtime execution failure: {e}")
 
-
-if name == "main":
+if __name__ == "__main__":
     main()
